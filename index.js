@@ -12,7 +12,7 @@
 *     {% ruby 超電磁砲|レールガン %}
 */
 hexo.extend.tag.register('ruby', function(args) {
-  var splited = args.shift().split('|');
+  var splited = args.join(' ').split('|');
   var origin = splited[0].trim();
   var ruby = splited[1].trim();
 

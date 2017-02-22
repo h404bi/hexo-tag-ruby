@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-ruby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ruby tag for Hexo",
   "main": "index.js",
   "scripts": {
