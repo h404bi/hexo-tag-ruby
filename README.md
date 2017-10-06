@@ -1,17 +1,23 @@
 # hexo-tag-ruby #
 
-Ruby character tag for Hexo, inspired by the [Ruby template](http://zh.moegirl.org/Template:Ruby) of [萌娘百科](http://zh.moegirl.org).
+[![npm](https://img.shields.io/npm/v/hexo-tag-ruby.svg?style=flat-square)](https://www.npmjs.com/package/hexo-tag-ruby) [![npm](https://img.shields.io/npm/dm/hexo-tag-ruby.svg?style=flat-square)](https://www.npmjs.com/package/hexo-tag-ruby) [![npm](https://img.shields.io/npm/l/hexo-tag-ruby.svg?style=flat-square)](https://www.npmjs.com/package/hexo-tag-ruby)
+
+[Ruby character](https://en.wikipedia.org/wiki/Ruby_character) tag plugin for Hexo, inspired by the [Ruby template](https://zh.moegirl.org/Template:Ruby).
 
 ## Install ##
 
 ```
-npm install hexo--tag-ruby --save
+npm install hexo-tag-ruby --save
 ```
 
 ## Usage ##
 
-`{% ruby Base|top %}` → <ruby>Base<rp> (</rp><rt>top</rt><rp>) </rp></ruby>
+Syntax:
 
-`{% ruby 注音|zhùyīn %}` → <ruby>注音<rp> (</rp><rt>zhùyīn</rt><rp>) </rp></ruby>
+`{% ruby base|text %}` → <ruby><rb>base</rb><rp>(</rp><rt>text</rt><rp>)</rp></ruby>
 
-`{% ruby 超電磁砲|レールガン %}` → <ruby>超電磁砲<rp> (</rp><rt>レールガン</rt><rp>) </rp></ruby>
+For example:
+
+`{% ruby 注音|zhùyīn %}` → <ruby><rb>注音</rb><rp>(</rp><rt>zhùyīn</rt><rp>)</rp></ruby>
+
+`{% ruby 超電磁砲|レールガン %}` → <ruby><rb>超電磁砲</rb><rp>(</rp><rt>レールガン</rt><rp>)</rp></ruby>
